@@ -1,0 +1,9 @@
+Body Background: #3B1A4B
+
+Header Purple: rgba(91, 22, 124, 1)
+
+Header Blue: DeepSkyBlue
+
+Text: rgba(132, 91, 183, 1)
+
+Scarlet Dark: rgba(26, 12, 33, 1)

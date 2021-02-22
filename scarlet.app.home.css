@@ -1,0 +1,170 @@
+/* css file for scarlet.app.home.html */
+body{
+  background-color: #3B1A4B;
+}
+
+#shheader{
+  margin-left: -10px;
+  top: 0;
+  position: fixed;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 60px;
+  background: linear-gradient(to top, rgba(91, 22, 124, 1) 35%, DeepSkyBlue 125%);
+}
+
+#homebutton{
+  margin-top: -55px;
+  height: 45px;
+  width: 80px;
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'Raleway', sans-serif;
+  transition-duration: 0.2s;
+  transition-delay: 0.1s;
+}
+
+#homebutton{
+  margin-left: 2%;
+}
+#homebutton:hover{
+  background-color: rgba(91, 22, 124, 0.8);
+  color: white;
+  cursor: pointer;
+}
+
+#scarlogo2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  margin-top: 5px;
+}
+
+#scarlogo{
+  margin-top: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+}
+
+#wel{
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  font-size: 55px;
+  font-family: 'Raleway', sans-serif;
+}
+#wel:hover{
+  cursor: default;
+}
+
+#wel2{
+  margin-top: -20px;
+  text-align: center;
+  color: rgba(132, 91, 183, 1);
+  font-size: 35px;
+  font-family: 'Raleway', sans-serif;
+}
+#wel2:hover{
+  cursor: default;
+}
+
+#ss1{
+  margin-top: -10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 450px;
+  background-color: #C2ACCD;
+  background-image: url("APS.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+#sm{
+  text-align: center;
+  font-size: 25px;
+  color: rgba(132, 91, 183, 1);
+  font-family: 'Raleway', sans-serif;
+}
+#sm:hover{
+  cursor: default;
+}
+
+#scarguild{
+  color: rgba(132, 91, 183, 1);
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footerbody{
+  margin-top: 50px;
+  bottom: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 200px;
+  border-radius: 15px;
+  background-color: rgba(26, 12, 33, 1);
+}
+
+#email{
+  text-align: center;
+  font-size: 20px;
+  color: rgba(132, 91, 183, 1);
+  font-family: 'Raleway', sans-serif;
+}
+
+#emailid{
+  color: white;
+}
+#emailid:hover{
+  cursor: pointer;
+}
+
+#twitter1{
+  text-align: center;
+  font-size: 20px;
+  color: rgba(132, 91, 183, 1);
+  font-family: 'Raleway', sans-serif;
+}
+
+#twtid{
+  color: white;
+}
+#twtid:hover{
+  cursor: pointer;
+}
+
+#wrn{
+  text-align: center;
+  font-size: 20px;
+  color: rgba(132, 91, 183, 1);
+  font-family: 'Raleway', sans-serif;
+}
+#scarllc{
+  text-align: center;
+  font-size: 15px;
+  color: rgba(132, 91, 183, 1);
+  font-family: 'Raleway', sans-serif;
+}
+
+#webv{
+  text-align: center;
+  font-size: 10px;
+  color: rgba(132, 91, 183, 1);
+  font-family: 'Raleway', sans-serif;
+}
