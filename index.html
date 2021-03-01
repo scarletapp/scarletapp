@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Version 0.03 -->
+<!-- Version 0.07 -->
 <html>
   <head>
     <title>Scarlet App</title>
@@ -17,8 +17,14 @@
       <div id="shheaderc">
         <img src="Scarletlogo.png" id="scarlogo2">
         </div>
-      <div id="homebutton">
+      <div id="homebutton" class="floatheaderleft" onclick="windowHome()">
         Home
+      </div>
+      <div id="downloadapp" class="floatheaderright">
+        Download App
+      </div>
+      <div id="feedbackpg" class="floatheaderright" onclick="windowFeedback()">
+        Feedback
       </div>
         </div>
     </header>
@@ -32,13 +38,18 @@
 
     <div id="ss1">
 
-    </div>
-    <div id="wrn">
-      **These Screenshots were taken during a heavy Beta phase,<br>
-      UI design is subject to change with upcoming updates and overhauls**
-    </div><br><br>
+    </div><br>
 
-    <div id="sm">
+    <div id="wrn">
+      **The Screenshots currently shown here were taken during a heavy Beta phase,<br>
+      UI design is subject to change with upcoming updates and overhauls**
+    </div><br>
+
+    <div id="downloadss">
+      Download App
+    </div>
+
+    <div id="sm"><br>
       <b>Scarlet is currently a project in development,<br>
       there is not much to show as of right now</b>
     </div><br><br>
@@ -59,12 +70,13 @@
         </div><br><br>
         <div id="scarllc">
           Scarlet.llc
-        </div><br>
+        </div>
         <div id="webv">
-          Website Version 0.04
+          Website Version 0.07
         </div>
       </footer>
     </body>
     <!-- Connecting to scarlet.app.home.js -->
     <script src="scarlet.app.home.js"></script>
+    <script src="scarlet.app.local.js"></script>
 </html>

@@ -10,22 +10,26 @@ body{
   padding: 0;
   width: 100%;
   max-width: 100%;
-  height: 60px;
+  height: 9%;
   background: linear-gradient(to top, rgba(91, 22, 124, 1) 35%, DeepSkyBlue 125%);
+}
+
+.floatheaderleft{
+  float: left;
+}
+.floatheaderright{
+  float: right;
 }
 
 #homebutton{
   margin-top: -55px;
-  height: 45px;
-  width: 80px;
+  height: 76%;
+  width: 7%;
   text-align: center;
   padding-top: 15px;
   font-family: 'Raleway', sans-serif;
   transition-duration: 0.2s;
   transition-delay: 0.1s;
-}
-
-#homebutton{
   margin-left: 2%;
 }
 #homebutton:hover{
@@ -33,6 +37,53 @@ body{
   color: white;
   cursor: pointer;
 }
+
+#feedbackpg{
+  text-align: center;
+  font-size: 125%;
+  font-weight: bolder;
+  font-family: 'Raleway', sans-serif;
+  width: 12%;
+  height: 60%;
+  background: linear-gradient(to top, rgba(91, 22, 124, 1) 35%, DeepSkyBlue 125%);
+  color: rgba(26, 12, 33, 1);
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 3px rgba(26, 12, 33, 1);
+  transition-duration: 0.1s;
+  padding-top: 5px;
+  margin-right: 15%;
+  margin-top: -45px;
+}
+#feedbackpg:hover{
+  cursor: pointer;
+  background-color: rgba(132, 91, 183, 1);
+  color: white;
+  box-shadow: 0px 0px 0px 8px rgba(26, 12, 33, 0.5);
+}
+
+#downloadapp{
+  text-align: center;
+  font-size: 110%;
+  font-weight: bolder;
+  font-family: 'Raleway', sans-serif;
+  width: 12%;
+  height: 60%;
+  background: linear-gradient(to top, rgba(91, 22, 124, 1) 35%, DeepSkyBlue 125%);
+  color: rgba(26, 12, 33, 1);
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 3px rgba(26, 12, 33, 1);
+  transition-duration: 0.1s;
+  padding-top: 5px;
+  margin-right: 2%;
+  margin-top: -45px;
+}
+#downloadapp:hover{
+  cursor: pointer;
+  background-color: rgba(132, 91, 183, 1);
+  color: white;
+  box-shadow: 0px 0px 0px 8px rgba(26, 12, 33, 0.5);
+}
+
 
 #scarlogo2{
   display: block;
@@ -55,7 +106,7 @@ body{
   margin-top: 30px;
   text-align: center;
   color: white;
-  font-size: 55px;
+  font-size: 400%;
   font-family: 'Raleway', sans-serif;
 }
 #wel:hover{
@@ -66,7 +117,7 @@ body{
   margin-top: -20px;
   text-align: center;
   color: rgba(132, 91, 183, 1);
-  font-size: 35px;
+  font-size: 200%;
   font-family: 'Raleway', sans-serif;
 }
 #wel2:hover{
@@ -78,7 +129,7 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  width: 60%;
   height: 450px;
   background-color: #C2ACCD;
   background-image: url("APS.png");
@@ -87,9 +138,33 @@ body{
   border-radius: 15px;
 }
 
+#downloadss{
+  text-align: center;
+  font-size: 110%;
+  font-weight: bolder;
+  font-family: 'Raleway', sans-serif;
+  width: 12%;
+  height: 35px;
+  background-color: DeepSkyBlue;
+  color: rgba(26, 12, 33, 1);
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 3px rgba(26, 12, 33, 1);
+  transition-duration: 0.1s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+#downloadss:hover{
+  cursor: pointer;
+  background-color: rgba(132, 91, 183, 1);
+  color: rgba(26, 12, 33, 1);
+  box-shadow: 0px 0px 0px 8px rgba(26, 12, 33, 0.5);
+}
+
 #sm{
   text-align: center;
-  font-size: 25px;
+  font-size: 156%;
   color: rgba(132, 91, 183, 1);
   font-family: 'Raleway', sans-serif;
 }
@@ -100,7 +175,7 @@ body{
 #scarguild{
   color: rgba(132, 91, 183, 1);
   text-align: center;
-  font-size: 15px;
+  font-size: 94%;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -123,7 +198,7 @@ iframe{
 
 #email{
   text-align: center;
-  font-size: 20px;
+  font-size: 125%;
   color: rgba(132, 91, 183, 1);
   font-family: 'Raleway', sans-serif;
 }
@@ -137,7 +212,7 @@ iframe{
 
 #twitter1{
   text-align: center;
-  font-size: 20px;
+  font-size: 125%;
   color: rgba(132, 91, 183, 1);
   font-family: 'Raleway', sans-serif;
 }
@@ -151,20 +226,20 @@ iframe{
 
 #wrn{
   text-align: center;
-  font-size: 20px;
+  font-size: 125%;
   color: rgba(132, 91, 183, 1);
   font-family: 'Raleway', sans-serif;
 }
 #scarllc{
   text-align: center;
-  font-size: 15px;
+  font-size: 94%;
   color: rgba(132, 91, 183, 1);
   font-family: 'Raleway', sans-serif;
 }
 
 #webv{
   text-align: center;
-  font-size: 10px;
+  font-size: 62.5%;
   color: rgba(132, 91, 183, 1);
   font-family: 'Raleway', sans-serif;
 }

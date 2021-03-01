@@ -1,0 +1,88 @@
+<<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Scarlet - Feedback
+    </title>
+
+    <!-- Connecting to scarlet.app.home.css and scarlet.app.feedback.css file -->
+    <link rel="stylesheet" href="scarlet.app.feedback.css">
+    <link rel="stylesheet" href="scarlet.app.home.css">
+
+    <!-- Connecting to Google Fonts, Raleway Sans serif -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <div id="shheader">
+      <div id="shheaderc">
+        <img src="Scarletlogo.png" id="scarlogo2">
+        </div>
+      <div id="homebutton" class="floatheaderleft" onclick="windowHome()">
+        Home
+      </div>
+      <div id="downloadapp" class="floatheaderright">
+        Download App
+      </div>
+      <div id="feedbackpg" class="floatheaderright">
+        Feedback
+      </div>
+        </div>
+    </header>
+
+    <div id="wel"><br>
+      Scarlet Feedback
+      </div>
+    <div id="wel2"><br>
+      Report or Suggest fixes directly to the<br>Scarlet Team
+      </div><br><br><br>
+
+    <p id="Iwel2">Select The Application Type You Are Providing Feedback On</p>
+    <div id="input1">
+      <div id="IOapp" class="Ifloat" onclick="IOappSel()">
+        App
+        </div>
+      <div id="IOweb" class="Ifloat" onclick="IOwebSel()">
+        Website
+        </div>
+      </div><br><br><br>
+
+      <p id="Iwel2">Select The Type of Feedback You Are Providing</p>
+      <div id="input2">
+        <div id="ITsug" class="Ifloat" onclick="ITsugSel()">
+          Suggestion
+          </div>
+        <div id="ITbug" class="Ifloat" onclick="ITbugSel()">
+          Bug Report
+          </div>
+        </div><br><br><br>
+
+      <p id="Iwel2">Please Describe Your Suggestion/Report<br>With Good Detail</p>
+      <div id="inputDescarea"><textarea id="inputDesc"></textarea></div><br>
+
+      <div id="fbsubmit" onclick="submitfb()">Submit</div><br><br>
+
+
+
+    <footer>
+      <div id="footerbody">
+        <div id="email">
+          <br>Email: <class id="emailid">alshhh.123.987@gmail.com</class> <a href="https://www.google.com/gmail/">Go to Gmail.com</a>
+        </div><br><br>
+        <div id="twitter1">
+          Twitter: <class id="twtid">@Scarlet_app</class> <a href="https://twitter.com/Scarlet_app" style="color: color: rgba(132, 91, 183, 1);">Go to @Scarlet_app on Twitter</a>
+        </div><br><br>
+        <div id="scarllc">
+          Scarlet.llc
+        </div>
+        <div id="webv">
+          Website Version 0.07
+        </div>
+      </footer>
+
+  </body>
+  <script src="scarlet.app.feedback.js"></script>
+  <script src="scarlet.app.local.js"></script>
+</html>
