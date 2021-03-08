@@ -114,14 +114,15 @@
 }
 
 #inputDescarea{
-  width: 400px;
-  height: 30%;
+  width: 40vw;
+  height: 30vw;
   margin-left: auto;
   margin-right: auto;
 }
 #inputDesc{
-  width: 400px;
-  height: 100%;
+  font-size: 3vh;
+  width: 40vw;
+  height: 30vw;
   font-family: 'Raleway', sans-serif;
   border-radius: 5px;
   background-color: rgba(132, 91, 183, 1);
@@ -129,10 +130,10 @@
 }
 
 #fbsubmit{
-  width: 10%;
-  height: 4%;
+  width: 15vw;
+  height: 5vw;
   text-align: center;
-  font-size: 125%;
+  font-size: 4vw;
   font-weight: bolder;
   font-family: 'Raleway', sans-serif;
   background-color: DeepSkyBlue;
