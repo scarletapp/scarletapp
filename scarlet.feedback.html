@@ -8,6 +8,7 @@
     <!-- Connecting to scarlet.app.home.css and scarlet.app.feedback.css file -->
     <link rel="stylesheet" href="scarlet.app.feedback.css">
     <link rel="stylesheet" href="scarlet.app.home.css">
+    <link rel="stylesheet" href="scarlet.app.local.css">
 
     <!-- Connecting to Google Fonts, Raleway Sans serif -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,16 +19,24 @@
     <header>
       <div id="shheader">
       <div id="shheaderc">
-        <img src="Scarletlogo.png" id="scarlogo2">
+        <img src="Scarletlogo.png" id="scarlogo2" onclick="windowHome()">
         </div>
-      <div id="homebutton" class="floatheaderleft" onclick="windowHome()">
-        Home
-      </div>
-      <div id="downloadapp" class="floatheaderright">
-        Download
-      </div>
-      <div id="feedbackpg" class="floatheaderright">
-        Feedback
+      <div id="menubutton" class="floatheaderleft">
+        Menu
+        <div id="pagecontain">
+          <div id="pagehome" class="pagehold" onclick="windowHome()">
+            Home
+          </div>
+          <div id="pagestore" class="pagehold" onclick="">
+            Store
+          </div>
+
+          <div id="feedbackholder" onclick="windowFeedback()">
+            <img src="Adobe_Post_20210407_1705450.8817772822226354.png" id="feedbacklogo" class="fbleft">
+            <div id="feedback" class="fbleft">
+              Feedback
+            </div>
+        </div>
       </div>
         </div>
     </header>
@@ -78,7 +87,7 @@
           Scarlet.llc
         </div>
         <div id="webv">
-          Website Version 0.09
+          Website Version 0.1.2
         </div>
       </footer>
 

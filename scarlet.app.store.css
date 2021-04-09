@@ -1,0 +1,172 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  background-color: #383737;
+}
+
+#footerbody{
+  background-color: #062D32;
+}
+#email{
+  color: #0C7C8B;
+}
+#twitter1{
+  color: #0C7C8B;
+}
+#scarllc{
+  color: #0C7C8B;
+}
+#webv{
+  color: #0C7C8B;
+}
+
+
+#holderpf{
+  position: absolute;
+  width: 20%;
+  height: 12vh;
+  background-color: #4E4E4E;
+  margin-top: 8vh;
+  margin-left: -7px;
+  box-shadow: 0px 0px 5px 5px #1D1D1D;
+  z-index: -2;
+}
+#userpfp{
+  position: relative;
+  margin-top: 1.5vh;
+  margin-left: 1vh;
+  height: 5vw;
+  background-color: black;
+  border-radius: 100px;
+}
+#userpfp:hover{
+  cursor: pointer;
+}
+#user{
+  position: absolute;
+  color: #1D1D1D;
+  font-family: 'Raleway', sans-serif;
+  font-size: 150%;
+  margin-left: 35%;
+  margin-top: -5vw;
+}
+#user:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#holdercontent{
+  position: absolute;
+  width: 20%;
+  height: 70%;
+  margin-left: -7px;
+  margin-top: 20vh;
+  z-index: 2;
+}
+
+.cg{
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+  height: 10%;
+  background-color: #4E4E4E;
+  margin-top: 3vh;
+  margin-left: -1px;
+  box-shadow: -1px 5px 5px 0px #1D1D1D;
+  box-shadow: inset -10px 0px 5px -5px #1D1D1D;
+  text-align: center;
+  font-size: 2.5vh;
+  color: #1D1D1D;
+  transition-duration: 0.1s;
+}
+.cg:hover{
+  cursor: pointer;
+  background-color: #0C7C8B;
+  color: #062D32;
+}
+
+#storecontent{
+  overflow-y: scroll;
+  position: absolute;
+  margin-top: -1.2vh;
+  width: 80%;
+  left: 20%;
+  height: 100%;
+  background-color: #0C7C8B;
+  box-shadow: 0px 0px 5px 5px #1D1D1D;
+  z-index: -1;
+}
+
+#titlestore{
+  font-size: 500%;
+  color: #062D32;
+  text-align: center;
+}
+#subtitlestore{
+  font-size: 200%;
+  color: #09434A;
+  text-align: center;
+}
+
+#ftgameholder{
+  width: 80%;
+  height: 65%;
+  box-shadow: 0px 5px 5px 0px #1D1D1D;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-image: url(https://www.minecraft.net/content/dam/games/minecraft/marketplace/mediablock-buzzybees.jpg);
+  background-size: cover;
+  background-position: center;
+  transition-duration: 0.1s;
+}
+#ftgameholder:hover{
+  cursor: pointer;
+}
+
+#ftgamecover{
+  width: 100%;
+  height: 100%;
+  transition-duration: 0.1s;
+}
+#ftgamecover:hover{
+  background-color: rgba(6, 45, 50, 0.25);
+}
+
+#ftgamenameholder{
+  color: #5ACFE1;
+  font-size: 350%;
+  text-align: center;
+  height: 20%;
+  width: 100%;
+  background-color: rgba(9, 67, 74, 0.75);
+  bottom: 0;
+  overflow: hidden;
+  transition-duration: 0.1s;
+}
+#ftgamenameholder:hover{
+  font-size: 0%;
+}
+#ftgamename{
+  padding-top: 1%;
+  line-height: 150%;
+}
+#donateft{
+  display: block;
+  height: 8.5vh;
+  width: 8.5vh;
+}
+#donateft:hover{
+}
+#donateftcover{
+  display: block;
+  height: 8.5vh;
+  width: 8.5vh;
+  float: right;
+  margin-right: 2vw;
+  margin-top: 1.5vh;
+  transition-duration: 0.1s;
+  border-radius: 100%;
+}
+#donateftcover:hover{
+  box-shadow: inset 0px 0px 0px 100px rgba(29, 29, 29, 0.25);
+}
