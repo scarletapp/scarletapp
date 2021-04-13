@@ -9,7 +9,7 @@
   width: 100%;
   max-width: 100%;
   height: 10vh;
-  background: linear-gradient(to top, rgba(91, 22, 124, 1) 35%, DeepSkyBlue 125%);
+  background: rgba(91, 22, 124, 1);
 }
 
 .floatheaderleft{

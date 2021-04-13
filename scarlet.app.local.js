@@ -4,3 +4,6 @@ function windowHome(){
 function windowFeedback(){
   window.location.replace("scarlet.feedback.html");
 }
+function windowStore(){
+  window.location.replace("scarlet.app.store.html");
+}
