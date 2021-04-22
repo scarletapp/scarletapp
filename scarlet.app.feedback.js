@@ -31,8 +31,8 @@ function submitfb(){
   var idesc = document.getElementById("inputDesc").value;
   var sendemail = "Feedback type: " + applicationfb + " " + reasonfb + ";  " + idesc;
 
-  var email = 'scarletapp1@gmail.com'
-  var subject = 'Scarlet Feedback Request!';
+  var email = 'help.scarlet1@gmail.com'
+  var subject = 'Scarlet User Request';
   var emailBody = sendemail;
   var mailto_link = 'mailto:' + email + '?subject=' + subject + '&body=' + encodeURIComponent(emailBody);
   win = window.open(mailto_link, 'emailWin');
