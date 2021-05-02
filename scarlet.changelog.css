@@ -1,0 +1,33 @@
+body{
+  background-color: #3B1A4B;
+  font-family: 'Raleway', sans-serif;
+}
+
+.clversion{
+  font-size: 4.5vw;
+  text-align: center;
+  margin-top: 5vh;
+}
+.cltitle{
+  font-size: 3.5vw;
+  text-align: center;
+  margin-top: 1.5vh;
+}
+.climage{
+  width: 75vh;
+  height: 42.1875vh;
+  margin-top: 1vh;
+  background-size: cover;
+  border-radius: 1.5vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.clbody{
+  font-size: 2.5vh;
+  text-align: center;
+  margin-top: 1.5vh;
+}
+
+#img0-1-4{
+  background-image: url(ssScarlet.png);
+}

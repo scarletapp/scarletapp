@@ -1,20 +1,15 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
-    <title>
-      Feedback - Scarlet
-    </title>
-
-    <!-- Connecting to scarlet.app.home.css and scarlet.app.feedback.css file -->
-    <link rel="stylesheet" href="scarlet.app.feedback.css">
+    <title>Changelog - Scarlet</title>
     <link rel="stylesheet" href="scarlet.app.home.css">
-    <link rel="stylesheet" href="scarlet.app.local.css">
+    <link rel="stylesheet" href="scarlet.changelog.css">
 
     <!-- Connecting to Google Fonts, Raleway Sans serif -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body onload="errload()">
 
     <header>
       <div id="shheader">
@@ -71,50 +66,44 @@
         </div>
       </div>
       </div>
-    </header>
+    </header><br><br><br>
 
-    <div id="wel"><br>
-      Leave us Feedback!
+    <div id="wel">
+      Scarlet Changelog
+      </div><br>
+    <div class="clversion">
+      Site 0.1.4
       </div>
-    <div id="wel2"><br>
-      Report or Suggest fixes directly to the<br>Scarlet Team
-      </div><br><br><br>
-
-    <p id="Iwel2">Select The Application Type You Are Providing Feedback On</p>
-    <div id="input1">
-      <div id="IOapp" class="Ifloat" onclick="IOappSel()">
-        App
-        </div>
-      <div id="IOweb" class="Ifloat" onclick="IOwebSel()">
-        Website
-        </div>
-      </div><br><br><br>
-
-      <p id="Iwel2">Select The Type of Feedback You Are Providing</p>
-      <div id="input2">
-        <div id="ITsug" class="Ifloat" onclick="ITsugSel()">
-          Suggestion
-          </div>
-        <div id="ITbug" class="Ifloat" onclick="ITbugSel()">
-          Bug Report
-          </div>
-        </div><br><br><br>
-
-      <p id="Iwel2">Please Describe Your Suggestion/Report<br>With Good Detail</p>
-      <div id="inputDescarea"><textarea id="inputDesc"></textarea></div><br>
-
-      <div id="fbsubmit" onclick="submitfb()">Submit</div><br><br>
-
-
+    <div class="cltitle">
+      Introducing Scarlet Changelog!
+      </div>
+    <div id="img0-1-4" class="climage">
+      </div>
+    <div class="clbody">
+      Added:<br><br>
+      -"What's New" tab in the website header, use this menu to view latest update information<br><br>
+      -Scarlet Changelog Page, view all updates starting from version 0.1.4
+      <br><br><br>
+      Fixed:<br><br>
+      -Changed color of text to allow for better readablilty<br><br>
+      -Guilded widget sizing problems resolved
+      <br><br><br>
+      Upcoming:
+      <br><br>
+      -The Scarlet Team plans on creating our first TOS (Terms Of Service) page<br><br>
+      -As of now, many assets and features are not suited for mobile resolutions,
+      these issues will be resolved as Scarlet's web developers gain more experience
+      </div>
 
     <footer>
       <div id="footerbody">
         <div id="email">
+
           <br>Contact us at!: <class id="emailid">scarletapp1@gmail.com</class>
         </div><br><br>
         <div id="twitter1">
-          Twitter: <class id="twtid">@Scarlet_app</class> <a href="https://twitter.com/Scarlet_app" style="color: color: rgba(132, 91, 183, 1);">Go to @Scarlet_app on Twitter</a>
-        </div><br><br>
+            Twitter: <class id="twtid"></class> <a href="https://twitter.com/Scarlet_app" style="color: color: rgba(132, 91, 183, 1);">Go to @Scarlet_app on Twitter</a>
+          </div><br><br>
         <div id="twitter1">
           Tribe Page: <class id="twtid"></class> <a href="https://scarletapp.tribe.so" style="color: color: rgba(132, 91, 183, 1);">Check it out!</a>
         </div><br><br>
@@ -125,8 +114,6 @@
           Website Version 0.1.4
         </div><br>
       </footer>
-
   </body>
-  <script src="scarlet.app.feedback.js"></script>
   <script src="scarlet.app.local.js"></script>
 </html>

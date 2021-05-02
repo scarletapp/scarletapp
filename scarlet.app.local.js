@@ -7,3 +7,6 @@ function windowFeedback(){
 function windowStore(){
   window.location.replace("scarlet.app.store.html");
 }
+function windowWN(){
+  window.location.replace("scarlet.changelog.html");
+}
