@@ -7,15 +7,17 @@ body{
   font-size: 4.5vw;
   text-align: center;
   margin-top: 5vh;
+  color: white;
 }
 .cltitle{
   font-size: 3.5vw;
   text-align: center;
   margin-top: 1.5vh;
+  color: white;
 }
 .climage{
-  width: 75vh;
-  height: 42.1875vh;
+  width: 75vw;
+  height: 42.1875vw;
   margin-top: 1vh;
   background-size: cover;
   border-radius: 1.5vh;
@@ -26,6 +28,7 @@ body{
   font-size: 2.5vh;
   text-align: center;
   margin-top: 1.5vh;
+  color: white;
 }
 
 #img0-1-4{
